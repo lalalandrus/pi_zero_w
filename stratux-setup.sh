@@ -163,7 +163,7 @@ apt-get install -y libjpeg-dev i2c-tools python-smbus python-pip python-dev pyth
 apt-get install -y golang-go
 pip install wiringpi
 #apt-get purge golang*
-cd && git clone git://git.drogon.net/wiringPi && cd WiringPi && git reset --hard 96344ff7125182989f98d3be8d111952a8f74e15 
+cd && git clone git://git.drogon.net/wiringPi && cd wiringPi && git reset --hard 96344ff7125182989f98d3be8d111952a8f74e15 
 cd wiringPi && make static && make install-static
 echo "${GREEN}...done${WHITE}"
 
